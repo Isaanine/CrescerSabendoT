@@ -53,18 +53,18 @@ Route::get('/aluno/signup', function () {
 Route::get('/prof/signup', function () {
     return view('user/prof/signUp');
 });
-Route::get('/teacher-profile', function () {
-    return view('teacher-profile');
+Route::get('/prof/teacher-profile', function () {
+    return view('user/prof/teacher-profile');
 });
-Route::get('/teacher-profile-mural', function () {
-    return view('teacher-profile-mural');
+Route::get('/prof/teacher-profile-mural', function () {
+    return view('user/prof/teacher-profile-mural');
 });
-Route::get('/teacher-profile-chat', function () {
-    return view('/teacher-profile-chat');
+Route::get('/prof/teacher-profile-chat', function () {
+    return view('user/prof/teacher-profile-chat');
 });
 
 Route::get('/grades', function () {
-    return view('/grades');
+    return view('user/prof/grades');
 });
 
 
